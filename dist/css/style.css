@@ -1,0 +1,118 @@
+/* CSS Document */
+body{
+	padding:0px;
+	margin:0px;
+}
+.skin-black{
+	background:#ecf0f5;
+}
+#alert-background{
+	background-color: rgba(0, 0, 0, 0.5);
+	position:fixed;
+	width:100%;
+	height:100vh;
+	z-index:1000;
+	padding-top:10vh;
+	display:none;
+	margin:0px;
+	top:0px;
+}
+.alert-box{
+	width:35%;
+	position:relative;
+	left:32.5%;
+	height:300px;
+}
+.center{
+	margin: 0 auto;
+    width: 100%;
+}
+#main-display{
+	width:100%;
+	height: calc(100vh - 106px);
+	margin:0px;
+	border:0px;
+}
+.form-control,.input-group{
+	margin-bottom:5px;
+}
+.box-header{
+	min-height:45px;
+}
+.box-title{
+	padding-top:3px;
+}
+.table-fixed {
+  table-layout: fixed;
+  width: 100%;
+}
+.td-input{
+	border: 1px solid #FFFFFF;
+	width:100%;
+	padding:7px 5px;
+}
+.td-input:focus{
+	border-color:#66afe9;outline:0;
+}
+/*.td-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}*/
+.child ul{
+	list-style-type: none;
+	padding-left:0px;
+}
+.dtr-title{
+	font-weight:bold;
+}
+.txt-r{
+	text-align:right;
+}
+.yellow{
+	color:eac282;
+}
+.btn-app{
+	margin-left:0px;
+	background:#FFFFFF;
+}
+.btn-app img{
+	margin-bottom:3px;
+}
+.tools td{
+	padding:5px;
+}
+table{
+	font-size:12px;
+}
+table i{
+	margin:0px 2px;
+	cursor:pointer;
+}
+.disable{
+	opacity: 0.5;
+	cursor:default;
+}
+@media only screen and (max-width : 1024px) {
+    .alert-box{
+		min-width:350px;
+		position:relative;
+		left:-webkit-calc(50% - 175px);
+		left:-moz-calc(50% - 175px);
+		left:calc(50% - 175px);
+	}
+	#main-display{
+		width:100%;
+		height: calc(100vh - 100px);
+		margin:0px;
+		border:0px;
+	}
+	/*.table-fixed {
+	  table-layout: auto;
+	}*/
+	/*.td-ellipsis {
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	  overflow: hidden;
+	}*/
+}
