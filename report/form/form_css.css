@@ -96,7 +96,7 @@ footer {
     line-height: 0.3cm;
 }
 .text-center{
-    text-align: center;
+   /* text-align: center;*/
 }
 
 /* Text Box Start*/
@@ -191,5 +191,8 @@ p.line {border-top: 2px solid black;}
     }
     .navbar{
         display: none;
+    }
+    textarea{
+        resize: none;
     }
 }

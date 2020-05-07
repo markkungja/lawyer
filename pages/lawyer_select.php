@@ -52,15 +52,15 @@ $index = 0;
 <!-- Main content -->
 <section class="content">
   <div class="row">
-    <div class="col-xs-12">
+  <div class="col-xs-12">
     <button type="button" class="btn btn-app flat" onClick="goHref('../services/insert.php?type=add_lawyer&doc_id=<?php echo $doc_id ?>')" title="new">
-        <img src="../dist/img/icon/add.svg" width="20"><br>
-        New
+      <img src="../dist/img/icon/add.svg" width="20"><br>
+      New
     </button>
-    <button type="button" class="btn btn-app flat list" onClick="goHref('notis_edit.php?act=edit&id=<?php echo $id ?>')">
-            <img src="../dist/img/icon/multiply.svg" width="20"><br>
-			Discard
-        </button>
+    <button type="button" class="btn btn-app flat"  onClick="goHref('notis_edit.php?act=edit&id=<?php echo $id ?>')">
+      <img src="../dist/img/icon/multiply.svg" width="20"><br>
+      Discard
+    </button>
       <div class="box">
       <div class="box-header with-border">
           <h3 class="box-title">List</h3>

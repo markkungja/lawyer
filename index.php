@@ -44,9 +44,19 @@ $name = $objResult['name'];
 <div class="wrapper">
   <!-- Main Header -->
   <header class="main-header">
-	<h3 class="logo-lg" data-toggle="push-menu" style="color:#FFFFFF; position:absolute; margin-top:12px; left:10px; z-index:inherit;"><img src="dist/img/profile/12795380_443460995864771_2927513966717694732_n.png" width="29" style="margin-right:15px;">บริษัทธุรกิจเนติอินเตอร์ลอว์ จํากัด</h3>
+    <!-- Logo -->
+    <a href="index2.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><img src="dist/img/profile/12795380_443460995864771_2927513966717694732_n.png" alt="บริษัทธุรกิจเนติอินเตอร์ลอว์ จํากัด" height="32" width="32"></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>บริษัทธุรกิจเนติอินเตอร์ลอว์ จํากัด</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
       
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
@@ -186,7 +196,9 @@ $name = $objResult['name'];
                 </span>
 			</a>
             <ul class="treeview-menu">
-            <li><a href="#" onClick="goPage('pages/notis_list.php');">รายการเบิกเงิน</a></li>
+            <li><a href="#" onClick="goPage('pages/notis_list.php');">ฟ้องคดี</a></li>
+            <li><a href="#" onClick="goPage('pages/notis_list.php');">สืบทรัพย์</a></li>
+            <li><a href="#" onClick="goPage('pages/notis_list.php');">ยึดทรัพย์และอายัด</a></li>
           </ul>
         </li>
         <li class="treeview">

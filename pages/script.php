@@ -25,3 +25,4 @@
 <script src="../bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <!-- application -->
 <script src="../dist/js/app.js"></script>
+<script src="../dist/js/bootstrap-datetimepicker.min.js"></script>
